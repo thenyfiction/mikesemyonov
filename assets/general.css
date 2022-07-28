@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,151,700&display=swap');
+
+body {
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 120%;
+	color: #000;
+	background: #F4EEE2;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	text-align: left;
+}
+
+#pagewrapper {
+	margin: 0 auto;
+	width: (100%-1.4em);
+	padding: 0 1.4em;
+}
+
+#header {
+	padding: 4em 0 1.4em;
+}
+
+#title {
+	padding: 0 0 1em;
+}
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav, #header h1 {
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 1.9em;
+	text-transform: uppercase;
+	line-height: 100%;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+#header h1 {
+	float: left;
+	width: 70%;
+}
+
+#header nav#menu {
+	float: left;
+	width: 30%;
+	text-align: right;
+}
+
+nav#menu a {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+nav#menu a:hover {
+	color: #9797D9;
+	text-decoration: none;
+
+}
+
+#sitedescription {
+	font-size: 1em;
+}
+
+#externallinks ul {
+	margin: 0;
+	padding: 0.5em 0 0;
+	list-style: none;
+}
+
+#externallinks * li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+
+.thumbpreview {
+	width: 15%;
+	height: auto;
+	display: inline-block;
+}
